@@ -1,0 +1,237 @@
+html{
+    font-family: sans-serif;
+    
+}
+
+body{
+    margin: 0;
+}
+
+.header{
+    text-align: center;
+    margin: auto;
+    background-color: #ffffff;
+
+}
+
+.header_logo{
+    
+    width: 14em;
+    height: auto;
+}
+
+#hamburguer{
+    background-color: #ec0000;
+    color: #000000;
+    display: block;
+    text-align: center;
+    padding: .3em;
+    cursor: pointer;
+    font-size: 2em;
+
+}
+
+.header-nav{
+    padding: 30px;
+    margin-bottom: 0;
+    background-color: #ffffff;
+    display: none;
+}
+
+.header-nav.show{
+    display: block;
+}
+
+ul{
+    margin: 0;
+}
+
+.header-nav ul{
+    list-style-type: none;
+    padding: 0;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    font-size: .8em;
+}
+
+.header-nav a{
+    color: #ec0000;
+    text-decoration: none;
+    display: block;
+    padding: 1em;
+}
+
+.header-nav a:hover{
+    background-color: color-mix(in srgb, #000000,#ffffff 50%);
+    color: #000000;
+}
+
+
+
+body{
+    background-color: #000000;
+}
+
+
+.header-imagem{
+    width: 100%;
+   
+}
+
+.fundo_main{
+    background-image: url(imagens/galeria.jpg);
+    background-size: cover;
+    background-position: left center;
+    background-repeat: no-repeat;
+    height: 35vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+.galeria a{
+    text-decoration: none;
+    color: #ffffff;
+    display: inline-block;
+    background-color: rgb(44, 43, 43);
+    padding: 1em 1.8em;
+    font-size: 1.5em;
+    border-radius: 5px;
+    letter-spacing: .1em;
+    font-family: 'Courgette', cursive;
+
+}
+
+.galeria a:hover{
+    background-color: red;
+    color:beige;
+}
+
+img{
+    width: 100%;
+
+}
+
+
+
+footer{
+    background-color:#ec0000;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 1em;
+    text-align: center;
+    font-family: 'Courgette', cursive ;
+    display: block;
+
+    
+}
+
+
+    
+
+
+.img{
+    width: 55px;
+    align-items: center;
+    display: block;
+    padding: 1em;
+    display: flex;
+    margin: auto;
+    
+   
+}
+
+    
+
+
+@media screen and (min-width: 48em){
+    #hamburguer{
+        display: none;}
+
+        .header{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #ffffff;
+        }
+
+        .header_logo{
+            margin-left: 2em;
+        }
+
+        .header-nav{
+            display: block;
+        }
+
+        .header-nav ul{
+            margin-right: 2em;
+            font-size: .9em;
+        }
+
+        .header-nav li{
+            display: inline-block;
+        }
+
+        .header-nav a{
+            border-radius: 5px;
+        }
+
+        .header-nav a:hover{
+            background-color: #ec0000;
+            color: #000000;
+        }
+        
+        
+        
+        
+        
+img{
+    width: 100%;
+}
+                
+       
+
+        .img{
+            margin-right: 2em;
+            align-items: center;
+            display:inline-block;
+           
+        }
+    
+        .fundo_main{
+            background-image: url(imagens/galeria.jpg);
+            background-size: cover;
+            background-position: left center;
+            background-repeat: no-repeat;
+            height: 145vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        div.galeria a{
+            text-decoration: none;
+            color: #ffffff;
+            display: inline-block;
+            background-color: black;
+            padding: 1em 1.8em;
+            font-size: 1.5em;
+            border-radius: 5px;
+            letter-spacing: .1em;
+            font-family: 'Courgette', cursive;
+        }
+        
+        div.galeria a:hover{
+            background-color: red;
+            color: #ffffff;
+        }
+
+        
+        }
+
+       
+         
+            

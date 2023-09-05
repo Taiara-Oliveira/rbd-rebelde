@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link rel="shortcut icon" href="imagens/microphone (1).png">
+    <link rel="shortcut icon" type="imagex/png" href="./Imagens/icons8-arco-iris-16.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> REBELDE</title>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <a href="https://www.flaticon.com/free-icons/microphone"></a>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.min.js"></script>
+    
+
+</head>
+
+<body>
+
+
+    <header class="header">
+
+        <img src="icones/rebelde-logo.jpg" alt="" class="header_logo">
+
+
+        <span id="hamburguer" class="material-symbols-outlined">
+            menu
+        </span>
+        <nav id="itens_menu" class="header-nav">
+            <ul>
+                <li><a href="https://www.google.com/search?q=membros+do+rbd&rlz=1C1CHBD_pt-PTBR901BR901&oq=rbd&gs_lcrp=EgZjaHJvbWUqCQgAECMYJxiKBTIJCAAQIxgnGIoFMg0IARAuGIMBGLEDGIAEMgYIAhBFGEAyBggDEEUYOzIGCAQQRRg7Mg0IBRAAGIMBGLEDGIAEMgYIBhBFGDwyBggHEEUYPNIBCDI4NDdqMGo0qAIAsAIA&sourceid=chrome&ie=UTF-8&si=ACFMAn-ACEWvA_55-GmJUn2VYXSeITM_DS28iFx63J6VohIBBC-KafevaUOo2zi9wbz2pjtwOu-C0tcHleSiXVyhUodURBYrri9HjI9etwgw82OcHBECM8aeXU87-l5sX3G1fY8zDHAuApdGkwi7rQPmBO07a2hVae6efnNIJTVbqPdZNOHx8qzyS8V4N01MvGQ0ZosUpZXl&ictx=1&ved=2ahUKEwiS0I-dwJGBAxUgjJUCHdq0AFUQw_oBegQIQRAC" target="_blank"> Integrantes</a></li>
+                <li><a href="https://www.eventim.com.br/artist/rbd-000/" target="_blank">Ingressos</a></li>
+                <li><a href="#" target="_blank">Contato</a></li>
+                <li><a href="#"
+                        target="_blank">Fandom</a></li>
+            </ul>
+
+        </nav>
+
+
+    </header>
+
+
+    </header>
+
+    <main>
+        
+        <section class="fundo_main">
+           
+            <div class="galeria">
+               
+                <a href="galeria.html" target="_blank">galeria</a>
+            </div>
+        
+        
+    
+
+        </section>
+    </main>
+
+    <script>
+        var hamburguer = document.getElementById('hamburguer');
+        var intensMenu = document.getElementById('itens_menu');
+
+        hamburguer.addEventListener('click', aparecer);
+
+        function aparecer() {
+            if (intensMenu.style.display == 'block') {
+                intensMenu.classList.remove('show');
+            } else {
+                intensMenu.classList.toggle('show');
+            }
+        }
+    </script>
+
+
+    <footer>
+        <a href="https://m.facebook.com/taiara.oliveira.56/" target="_blank"> <img src="icones/facebook.png"
+                class="img" alt=""></a>
+        <a href="https://www.instagram.com/taiaraoficial/" target="_blank"><img src="icones/instagram_4494468.png"
+                class="img" alt=""></a>
+        <a href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoicHQifQ%3D%3D%22%7D"
+            target="_blank"><img src="icones/twitter_4494465.png" class="img" alt=""></a>
+        <a href="https://web.whatsapp.com/" target="_blank"><img src="icones/whatsapp_4494470.png" class="img"
+                alt=""></a>
+        <br>
+        @2023 Taiara Oliveira ❤️
+    </footer>
+</body>
+
+</html>

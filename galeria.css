@@ -1,0 +1,54 @@
+main{
+    background-color: #ec0000 ;
+}
+
+div.container-fluid{
+    padding: 0;
+}
+
+div.flex{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+
+.img{
+    width: 55px;
+    align-items: center;
+    display: block;
+    padding: 1em;
+    display: flex;
+    margin: auto;}
+
+.audio{
+    
+    text-align: center;
+    justify-content: center;
+    color: #ffffff;
+    height: 1em;
+    margin: 1em;
+    
+}
+footer{
+    background-color:#ec0000;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Courgette', cursive;
+    display: block;
+    
+
+    
+}
+img{
+    width: 100%;
+}
+@media screen and (min-width: 48em){
+    .img{
+        margin-right: 2em;
+        align-items: center;
+        display:inline-block;
+    }
+}
